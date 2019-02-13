@@ -33,3 +33,20 @@ Consider the relationship in 9-3a, which represents a round-robin tournament of 
 
 9-3b1 represents a definate ranking among four players: D better than B, B better than C, C better than A.
 
+## 9.4
+
+Fig 9-3b and Fig 9-3b1 are two examples of strict partial ordering.
+
+---
+
+Proof that strict partial ordering must be acyclic:
+
+Suppose a circuit exists, from a1, going through, a2, a3, till ai and finally going back to a1.
+
+Since the transitive rule, there must be an edge from a1 to ai directly. Since there is also one edge pointing from ai to a1. This contradicts the assumption that the graph is asymmetric. End.
+
+---
+
+Removing edge BA from Fig 9-3b, we get one acyclic graph, which is not strictly partial order since it does not satisfy the transitive rule. 
+
+
