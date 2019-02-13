@@ -43,7 +43,7 @@ Proof that strict partial ordering must be acyclic:
 
 Suppose a circuit exists, from a1, going through, a2, a3, till ai and finally going back to a1.
 
-Since the transitive rule, there must be an edge from a1 to ai directly. Since there is also one edge pointing from ai to a1. This contradicts the assumption that the graph is asymmetric. End.
+Since the transitive rule, there must be an edge from a1 to ai directly. Since there is also one edge pointing from ai to a1, these two edges contradict the assumption that the graph is asymmetric. End.
 
 ---
 
