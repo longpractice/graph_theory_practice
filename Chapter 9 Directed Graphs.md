@@ -104,6 +104,28 @@ discover newly transitively reachable vertices through the newly added vertices 
 step 4
 do step 1, 2, 3 for all the rows
 
+## 9-12
+
+---
+First we prove that if digraph is strongly connected, M = X + X^2 + ... + X^n must have non element that is zero:
+
+Since the digraph is strongly connected, there is one directed path from one vertex to another, this path must contain no more than n - 1 edges and thus all the X + X^2 + ... + X^(n-1) must have all none-diagonal elements not being zero.
+
+Then for any vertex v, there must be at least a directed circuit containing v, with no more than n edges. Therefore X + X^2 + ... + X^n must have the diagonal elements not being zero.
+
+---
+Second we prove that if M = X + X^2 + ... + X^n has all elements none zero, the graph is strongly connected.
+
+From any vertex i to another vertex j, we have M_ij != 0. We therefore have a directed sequence of e1, e2, e3, ..., ei going through a sequence of possibly repeated vertices. We could always "trim" any directed circuits and get a directed path from vertex i to vertex j. Therefore it is strongly connected.
+
+## 9-13
+
+The same as the second part of 9-12, we could always trim any directed circuits and get a directed path.
+
+The reverse is not true as shown in the figure below:
+
+![alt text](figures/Cha9/9-13.jpg)
+
 
 
 
