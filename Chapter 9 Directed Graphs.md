@@ -91,4 +91,19 @@ R_ij*R_ji == 1 if and only if R_ij == R_ji == 1 which means that vertex i and ve
 Since strong connectivity is transitive, S_i therefore equals to the number of vertices in the fragment containing vertex i.
 
 ## 9-11
+step 1, 
+
+find all the vertices numbers reachable from vertex 1.
+For each of the vertices found in 1, say v_i, find all the reachable vertices from v_i, which must also be reachable from vertex 1.
+
+add these newly reachable vertices to the first row. 
+
+step 2, 3
+discover newly transitively reachable vertices through the newly added vertices in step 1.
+
+step 4
+do step 1, 2, 3 for all the rows
+
+
+
 
