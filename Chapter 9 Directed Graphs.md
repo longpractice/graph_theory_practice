@@ -166,3 +166,13 @@ e1 - e2 - e3 - e6 - e7 - e8 - e9 - e10 - e5 - e4 - e11 - e12 - e13 - e14 - e15 -
 ## 9-15
 
 ![alt text](figures/Cha9/9-15.jpg)
+
+## 9-16
+
+GD(r+1)'s vertices are all possible sequence of r 0/1s. 
+GD(r)'s vertices are all possible sequence of r-1 0/1s. GD(r+1)'s edges are all possible sequence of r 0/1s. There is therefore one to one correspondence between GD(r)'s edges and GD(r+1)'s vertices.  
+
+Consider one vertex in GD(r), which is x_1 x_2 x_3 ... x_r. One edge going in is e_in = x_0 x_1 x_2 ... x_r, another edge going out is e_out = x_1 x_2 ... x_r x_r+1, all of the x_k are 0 or 1.
+
+Note that both e_in and e_out are vertices v_in and v_out in GD(r+1) correspondingly.  There is one new edge from v_in to v_out which is x_0 x_1 x_2 ... x_r x_r+1. Therefore that GD(r+1) is a line digraph of GD(r).
+
