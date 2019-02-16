@@ -176,3 +176,5 @@ Consider one vertex in GD(r), which is x_1 x_2 x_3 ... x_r. One edge going in is
 
 Note that both e_in and e_out are vertices v_in and v_out in GD(r+1) correspondingly.  There is one new edge from v_in to v_out which is x_0 x_1 x_2 ... x_r x_r+1. Therefore that GD(r+1) is a line digraph of GD(r).
 
+
+
