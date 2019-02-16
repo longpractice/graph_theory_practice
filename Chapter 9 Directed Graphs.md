@@ -126,6 +126,41 @@ The reverse is not true as shown in the figure below:
 
 ![alt text](figures/Cha9/9-13.jpg)
 
+## 9-14
+
+All the euler paths are:
+
+e1 - e2 - e8 - e12 - e13 - e14 - e15 - e7 - e3 - e4 - e11 - e9 - e10 - e5 - e6 - e16
+
+e1 - e2 - e8 - e12 - e13 - e14 - e10 - e11 - e9 - e15 - e7 - e3 - e4 - e5 - e6 - e16
+
+e1 - e2 - e8 - e12 - e13 - e14 - e10 - e5 - e4 - e11 - e9 - e15 - e7 - e3 - e6 - e16
+
+e1 - e2 - e8 - e12 - e13 - e14 - e10 - e5 - e6 - e7 - e3 - e4 - e11 - e9 - e15 - e16
+
+e1 - e2 - e8 - e9 - e15 - e7 - e3 - e4 - e11 - e12 - e13 - e14 - e10 - e5 - e6 - e16
+
+e1 - e2 - e8 - e9 - e10 - e11 - e12 - e13 - e14 - e15 - e7 - e3 - e4 - e5 - e6 - e16
+
+e1 - e2 - e8 - e9 - e10 - e5 - e4 - e11 - e12 - e13 - e14 - e15 - e7 - e3 - e6 - e16
+
+e1 - e2 - e8 - e9 - e10 - e5 - e6 - e7 - e3 - e4 - e11 - e12 - e13 - e14 - e15 - e16
+
+e1 - e2 - e3 - e4 - e11 - e12 - e13 - e14 - e15 - e7 - e8 - e9 - e10 - e5 - e6 - e16
+
+e1 - e2 - e3 - e4 - e11 - e12 - e13 - e14 - e10 - e5 - e6 - e7 - e8 - e9 - e15 - e16
+
+e1 - e2 - e3 - e4 - e11 - e9 - e15 - e7 - e8 - e12 - e13 - e14 - e10 - e5 - e6 - e16
+
+e1 - e2 - e3 - e4 - e11 - e9 - e10 - e5 - e6 - e7 - e8 - e12 - e13 - e14 - e15 - e16
+
+e1 - e2 - e3 - e4 - e5 - e6 - e7 - e8 - e12 - e13 - e14 - e10 - e11 - e9 - e15 - e16
+
+e1 - e2 - e3 - e4 - e5 - e6 - e7 - e8 - e9 - e10 - e11 - e12 - e13 - e14 - e15 - e16
+
+e1 - e2 - e3 - e6 - e7 - e8 - e12 - e13 - e14 - e10 - e5 - e4 - e11 - e9 - e15 - e16
+
+e1 - e2 - e3 - e6 - e7 - e8 - e9 - e10 - e5 - e4 - e11 - e12 - e13 - e14 - e15 - e16
 
 
 
