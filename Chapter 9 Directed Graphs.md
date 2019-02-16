@@ -163,4 +163,6 @@ e1 - e2 - e3 - e6 - e7 - e8 - e12 - e13 - e14 - e10 - e5 - e4 - e11 - e9 - e15 -
 e1 - e2 - e3 - e6 - e7 - e8 - e9 - e10 - e5 - e4 - e11 - e12 - e13 - e14 - e15 - e16
 
 
+## 9-15
 
+![alt text](figures/Cha9/9-15.jpg)
