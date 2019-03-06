@@ -182,3 +182,5 @@ However, the exercise itself is wrong. A Euler digraph's line digraph is not nec
 
 ![alt text](figures/Cha9/9-17.jpg)
 
+## 9-18
+![alt text](figures/Cha9/9-18.jpg)
